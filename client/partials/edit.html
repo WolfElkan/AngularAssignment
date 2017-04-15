@@ -1,7 +1,7 @@
 <h1>Edit</h1>
 {{eC.controlValue}} {{user.name}}
 <form ng-submit = "eC.updateUser()">
-  <input type="text" ng-model = 'users.name' placeholder = '{{user.name}}'>
+  <input type="text" ng-model = 'users.name' value = '{{user.name}}'>
   <input type="submit"  value="Update">
 </form>
 
